@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hamsters</title>
+    <style>
+      .d-flex {
+        display: flex;
+      }
+      .align-items-center {
+        align-items: center;
+      }
+      .mr-2 {
+        margin-right: 0.5rem;
+      }
+      .custom-bg {
+        background-color: #f8ebcb;
+      }
+      .custom-color {
+        color: #5b3b1f !important; /* Цвет текста */
+        font-weight: bold;
+      }
+      /*стиль изображения*/
+      .rounded-img {
+        border-radius: 50%; /*округленность*/
+        box-shadow: 0 0 10px rgb(0, 0, 0, 0.4); /*тень 0.4*/
+        padding: 1em; /*отступ внутенний для фото*/
+        margin-bottom: 1em; /*отступ снизу*/
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark custom-bg">
+      <div class="container d-flex align-items-center">
+        <a class="navbar-brand p-0" href="/">
+          <img
+            src="homka.png"
+            alt="logo"
+            width="29"
+            class="mr-2"
+            loading="lazy"
+          />
+          <span class="custom-color">Hamsters</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse ml-auto" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link active custom-color"
+                aria-current="page"
+                href="#"
+                >Jessica</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link custom-color" href="competition.html">
+                Competition</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--контейнер центр и отступ 5 во всех значениях-->
+    <div class="container text-center my-5">
+      <!--добавления поля-->
+      <div class="row">
+        <!--колонка делиться на 6  и вицентовуется-->
+        <div class="col-lg-6 mx-auto">
+          <img
+            class="rounded-img"
+            src="Jessica.jpg"
+            alt="Biba"
+            width="300"
+            height="300"
+          />
+          <h1>To jest Jessica</h1>
+          <p class="lead">
+            Ma dużo nazwisk, ale najpopularniejsze to (Baska, Korobaska, Birba).
+            Ona ma tłuste ciało, i jest miła jako biboczka.Ona miała męża, ale
+            nic nie pozwalała mu robić. Miała 5 dzieci: Fred, Bekki, Majk, Toni
+            i Noni
+          </p>
+          <a href="https://www.youtube.com/shorts/3GxXct-Uf8Q" target="_blank">
+            <button class="btn btn-primary">Like!</button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
